@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OPRAH LIKES YOU. AND SO DO OTHER PEOPLE</title>
+
+    <script>
+        let userName = prompt("Welcome, who are you?");
+        var cars = new Array("BMW", "Saab", "Maseratti");
+        var randomCar = Math.floor(Math.random() * cars.length);
+        var carName = cars[randomCar % cars.length];
+        if (userName === "Chris") {
+            document.write("<h1>Congratulations " + userName + " you have won a " + carName);
+        } else if (userName === "Armando") {
+            document.write("<h1>Congratulations " + userName + " you have won a " + carName);
+        } else {
+            document.write("<h1>Welcome " + userName);
+        }
+    </script>
+</head>
+
+<body>
+    <center><img src="oprah.jfif" alt="oprah"></center>
+
+</body>
+
+</html>
